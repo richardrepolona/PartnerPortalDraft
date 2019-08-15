@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Event Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a043e37d-60eb-47bb-8795-9ec1494239db</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b1468dd-dd73-4797-8802-3836872f4875</id>
+      <masked>false</masked>
+      <name>Topic</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b2a6d4c-cdd4-4fb7-9f69-2bfd90e67383</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1845123e-68d9-40c3-9ad1-720301aa2120</id>
+      <masked>false</masked>
+      <name>Start</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4cb280cd-bdbc-4a7e-81fd-5c26d257de1b</id>
+      <masked>false</masked>
+      <name>End</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad1706ff-34d9-4217-9247-6e169e033e9b</id>
+      <masked>false</masked>
+      <name>EventType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>975b6c55-3dce-4949-b6c7-b4d715c03d0e</id>
+      <masked>false</masked>
+      <name>EventTopic</name>
+   </variable>
+</TestCaseEntity>
