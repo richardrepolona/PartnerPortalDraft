@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>DataDrivenTestSuite_Login</name>
+   <name>Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -17,21 +17,21 @@
       <testCaseId>Test Cases/Partner Portal/RegistrationLoginPage/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>cae3fb4f-e9aa-424d-8bee-6f7a2082641e</id>
+         <id>4b9c94eb-e244-4413-bea8-d111dfed0093</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Credentials/Credentials</testDataId>
+         <testDataId>Data Files/Credentials/Login</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>cae3fb4f-e9aa-424d-8bee-6f7a2082641e</testDataLinkId>
+         <testDataLinkId>4b9c94eb-e244-4413-bea8-d111dfed0093</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Username</value>
          <variableId>d09651a9-8166-4bba-ab02-ffd15b258228</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>cae3fb4f-e9aa-424d-8bee-6f7a2082641e</testDataLinkId>
+         <testDataLinkId>4b9c94eb-e244-4413-bea8-d111dfed0093</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>9b1b1a5f-e2b0-481b-a65d-a02e06bfe397</variableId>

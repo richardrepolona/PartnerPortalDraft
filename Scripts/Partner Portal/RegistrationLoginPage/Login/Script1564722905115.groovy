@@ -23,5 +23,8 @@ WebUI.setText(findTestObject('Registration and Login Page/WebBlock_Login/Login_P
 
 WebUI.click(findTestObject('Registration and Login Page/WebBlock_Login/LogIn_Button'))
 
+'Verification - Login Done'
+WebUI.verifyTextPresent('Welcome', true)
+
 WebUI.closeBrowser()
 

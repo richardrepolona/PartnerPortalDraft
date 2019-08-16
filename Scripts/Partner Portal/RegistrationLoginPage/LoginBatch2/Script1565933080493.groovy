@@ -13,3 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://novareteam.outsystemscloud.com/PartnerPortal/Registration_Login.aspx')
+
+WebUI.setText(findTestObject('Registration and Login Page/WebBlock_Login/Login_Username_Input'), Username2)
+
+WebUI.setText(findTestObject('Registration and Login Page/WebBlock_Login/Login_Password_Input'), Password2)
+
+WebUI.click(findTestObject('Registration and Login Page/WebBlock_Login/LogIn_Button'))
+
+'Verification - Login Done'
+WebUI.verifyTextPresent('Welcome', true)
+
+WebUI.closeBrowser()
+
